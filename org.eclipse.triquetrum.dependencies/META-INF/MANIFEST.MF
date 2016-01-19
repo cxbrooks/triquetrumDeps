@@ -27,14 +27,14 @@ Export-Package: diva.canvas;version="11.0.0",diva.canvas.connector;ver
  ersion="11.0.0",diva.gui.toolbox;version="11.0.0",diva.gui.tutorial;v
  ersion="11.0.0",diva.resource;version="11.0.0",diva.util;version="11.
  0.0",diva.util.java2d;version="11.0.0",diva.util.jester;version="11.0
- .0",diva.util.xml;version="11.0.0";
+ .0",diva.util.xml;version="11.0.0",
  org.apache.commons.lang.enum;version="2.6",org.apache.
  commons.lang.enums;version="2.6",org.apache.commons.lang.builder;vers
  ion="2.6",org.apache.commons.lang.time;version="2.6",org.apache.commo
  ns.lang.exception;version="2.6",org.apache.commons.lang.mutable;versi
  on="2.6",org.apache.commons.lang.text;version="2.6",org.apache.common
  s.lang.reflect;version="2.6",org.apache.commons.lang.math;version="2.
- 6",org.apache.commons.lang;version="2.6";
+ 6",org.apache.commons.lang;version="2.6",
  org.apache.log4j;version="1.2.15",org.apache.log4j.cha
  insaw;version="1.2.15",org.apache.log4j.config;version="1.2.15",org.a
  pache.log4j.helpers;version="1.2.15",org.apache.log4j.jdbc;version="1
@@ -46,13 +46,13 @@ Export-Package: diva.canvas;version="11.0.0",diva.canvas.connector;ver
  ;version="1.2.15",org.apache.log4j.or;version="1.2.15",org.apache.log
  4j.or.jms;version="1.2.15",org.apache.log4j.or.sax;version="1.2.15",o
  rg.apache.log4j.spi;version="1.2.15",org.apache.log4j.varia;version="
- 1.2.15",org.apache.log4j.xml;version="1.2.15";
- org.ptolemy.commons; version="11.0.0";
- org.slf4j.impl;version=1.7.2;
- ptolemy.actor.lib.gui;version="11.0.0";
+ 1.2.15",org.apache.log4j.xml;version="1.2.15",
+ org.ptolemy.commons; version="11.0.0",
+ org.slf4j.impl;version=1.7.2,
+ ptolemy.actor.lib.gui;version="11.0.0",
  ptolemy.actor.lib;version="11.0.0",ptolemy.actor.lib.c
  onversions;version="11.0.0",ptolemy.actor.lib.logic;version="11.0.0",
- ptolemy.actor.lib.string;version="11.0.0";
+ ptolemy.actor.lib.string;version="11.0.0",
  org.ptolemy.osgi;version="11.0.0",ptolemy.actor;versio
  n="11.0.0",ptolemy.actor.parameters;version="11.0.0",ptolemy.actor.sc
  hed;version="11.0.0",ptolemy.actor.util;version="11.0.0",ptolemy.data
@@ -66,12 +66,12 @@ Export-Package: diva.canvas;version="11.0.0",diva.canvas.connector;ver
  lemy.math;version="11.0.0",ptolemy.util;version="11.0.0";
  ptolemy.actor.process;version="11.0.0",ptolemy.domains
  .pn.kernel;version="11.0.0",ptolemy.domains.pn.kernel.event;version="
- 11.0.0";
+ 11.0.0",
  ptolemy.domains.sdf.kernel;version="11.0.0",ptolemy.do
- mains.sdf.lib;version="11.0.0";
+ mains.sdf.lib;version="11.0.0",
  ptolemy.actor.gui;version="11.0.0",ptolemy.actor.gui.s
  tyle;version="11.0.0",ptolemy.actor.injection;version="11.0.0",ptolem
- y.gui;version="11.0.0";
+ y.gui;version="11.0.0",
  com.microstar.xml;version="11.0.0",ptolemy.moml;versio
  n="11.0.0",ptolemy.moml.filter;version="11.0.0",ptolemy.moml.unit;ver
  sion="11.0.0"
