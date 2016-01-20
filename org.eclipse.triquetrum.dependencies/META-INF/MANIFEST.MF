@@ -1,77 +1,83 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Dependencies
+Bundle-Name: Triquetrum Dependencies
 Bundle-SymbolicName: org.eclipse.triquetrum.dependencies
 Bundle-Version: 0.0.1.2016011812000
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Bundle-ClassPath: .,
- deps/ptII/diva_11.0.0.201511291601.jar,
+Bundle-ClassPath: deps/ptII/diva_11.0.0.201511291601.jar,
  deps/ptII/org.apache.commons.lang_2.6.0.v201404270220.jar,
  deps/ptII/org.apache.log4j_1.2.15.v201012070815.jar,
  deps/ptII/org.ptolemy.commons_11.0.0.201511291558.jar,
  deps/ptII/org.slf4j.impl.log4j12_1.7.2.v20131105-2200.jar,
- deps/ptII/ptolemy.actor.lib.gui_11.0.0.201511291558.jar,
  deps/ptII/ptolemy.actor.lib_11.0.0.201511291558.jar,
+ deps/ptII/ptolemy.actor.lib.gui_11.0.0.201511291558.jar,
  deps/ptII/ptolemy.core_11.0.0.201511291558.jar,
  deps/ptII/ptolemy.domains.process_11.0.0.201511291558.jar,
  deps/ptII/ptolemy.domains.sdf_11.0.0.201511291558.jar,
- deps/ptII/ptolemy.gui_11.0.0.201511291558.jar,
+ deps/ptII/ptolemy.gui_11.0.0.201601200857.jar,
  deps/ptII/ptolemy.moml_11.0.0.201511291558.jar
-Export-Package: diva.canvas;version="11.0.0",diva.canvas.connector;ver
- sion="11.0.0",diva.canvas.demo;version="11.0.0",diva.canvas.event;ver
- sion="11.0.0",diva.canvas.interactor;version="11.0.0",diva.canvas.too
- lbox;version="11.0.0",diva.canvas.tutorial;version="11.0.0",diva.grap
- h;version="11.0.0",diva.graph.basic;version="11.0.0",diva.graph.layou
- t;version="11.0.0",diva.graph.modular;version="11.0.0",diva.graph.too
- lbox;version="11.0.0",diva.graph.tutorial;version="11.0.0",diva.gui;v
- ersion="11.0.0",diva.gui.toolbox;version="11.0.0",diva.gui.tutorial;v
- ersion="11.0.0",diva.resource;version="11.0.0",diva.util;version="11.
- 0.0",diva.util.java2d;version="11.0.0",diva.util.jester;version="11.0
- .0",diva.util.xml;version="11.0.0",
- org.apache.commons.lang.enum;version="2.6",org.apache.
- commons.lang.enums;version="2.6",org.apache.commons.lang.builder;vers
- ion="2.6",org.apache.commons.lang.time;version="2.6",org.apache.commo
- ns.lang.exception;version="2.6",org.apache.commons.lang.mutable;versi
- on="2.6",org.apache.commons.lang.text;version="2.6",org.apache.common
- s.lang.reflect;version="2.6",org.apache.commons.lang.math;version="2.
- 6",org.apache.commons.lang;version="2.6",
- org.apache.log4j;version="1.2.15",org.apache.log4j.cha
- insaw;version="1.2.15",org.apache.log4j.config;version="1.2.15",org.a
- pache.log4j.helpers;version="1.2.15",org.apache.log4j.jdbc;version="1
- .2.15",org.apache.log4j.jmx;version="1.2.15",org.apache.log4j.lf5;ver
- sion="1.2.15",org.apache.log4j.lf5.util;version="1.2.15",org.apache.l
- og4j.lf5.viewer;version="1.2.15",org.apache.log4j.lf5.viewer.category
- explorer;version="1.2.15",org.apache.log4j.lf5.viewer.configure;versi
- on="1.2.15",org.apache.log4j.net;version="1.2.15",org.apache.log4j.nt
- ;version="1.2.15",org.apache.log4j.or;version="1.2.15",org.apache.log
- 4j.or.jms;version="1.2.15",org.apache.log4j.or.sax;version="1.2.15",o
- rg.apache.log4j.spi;version="1.2.15",org.apache.log4j.varia;version="
- 1.2.15",org.apache.log4j.xml;version="1.2.15",
- org.ptolemy.commons; version="11.0.0",
- org.slf4j.impl;version=1.7.2,
+Export-Package: com.microstar.xml;version="11.0.0",
+ com.microstar.xml.driver;version="11.0.0",
+ diva.canvas;version="11.0.0",
+ diva.canvas.connector;version="11.0.0",
+ diva.canvas.demo;version="11.0.0",
+ diva.canvas.event;version="11.0.0",
+ diva.canvas.interactor;version="11.0.0",
+ diva.canvas.toolbox;version="11.0.0",
+ diva.canvas.tutorial;version="11.0.0",
+ diva.graph;version="11.0.0",
+ diva.graph.basic;version="11.0.0",
+ diva.graph.layout;version="11.0.0",
+ diva.graph.modular;version="11.0.0",
+ diva.graph.toolbox;version="11.0.0",
+ diva.graph.tutorial;version="11.0.0",
+ diva.gui;version="11.0.0",
+ diva.gui.toolbox;version="11.0.0",
+ diva.gui.tutorial;version="11.0.0",
+ diva.resource;version="11.0.0",
+ diva.util;version="11.0.0",
+ diva.util.java2d;version="11.0.0",
+ diva.util.jester;version="11.0.0",
+ diva.util.xml;version="11.0.0",
+ org.ptolemy.commons;version="11.0.0",
+ org.ptolemy.osgi;version="11.0.0",
+ ptolemy.actor;version="11.0.0",
+ ptolemy.actor.gui;version="11.0.0",
+ ptolemy.actor.gui.style;version="11.0.0",
+ ptolemy.actor.injection;version="11.0.0",
+ ptolemy.actor.lib;version="11.0.0",
+ ptolemy.actor.lib.activator;version="11.0.0",
+ ptolemy.actor.lib.conversions;version="11.0.0",
  ptolemy.actor.lib.gui;version="11.0.0",
- ptolemy.actor.lib;version="11.0.0",ptolemy.actor.lib.c
- onversions;version="11.0.0",ptolemy.actor.lib.logic;version="11.0.0",
+ ptolemy.actor.lib.gui.activator;version="11.0.0",
+ ptolemy.actor.lib.logic;version="11.0.0",
  ptolemy.actor.lib.string;version="11.0.0",
- org.ptolemy.osgi;version="11.0.0",ptolemy.actor;versio
- n="11.0.0",ptolemy.actor.parameters;version="11.0.0",ptolemy.actor.sc
- hed;version="11.0.0",ptolemy.actor.util;version="11.0.0",ptolemy.data
- ;version="11.0.0",ptolemy.data.expr;version="11.0.0",ptolemy.data.typ
- e;version="11.0.0",ptolemy.data.unit;version="11.0.0",ptolemy.graph;v
- ersion="11.0.0",ptolemy.graph.analysis;version="11.0.0",ptolemy.graph
- .analysis.analyzer;version="11.0.0",ptolemy.graph.analysis.strategy;v
- ersion="11.0.0",ptolemy.graph.mapping;version="11.0.0",ptolemy.kernel
- ;version="11.0.0",ptolemy.kernel.attributes;version="11.0.0",ptolemy.
- kernel.undo;version="11.0.0",ptolemy.kernel.util;version="11.0.0",pto
- lemy.math;version="11.0.0",ptolemy.util;version="11.0.0";
- ptolemy.actor.process;version="11.0.0",ptolemy.domains
- .pn.kernel;version="11.0.0",ptolemy.domains.pn.kernel.event;version="
- 11.0.0",
- ptolemy.domains.sdf.kernel;version="11.0.0",ptolemy.do
- mains.sdf.lib;version="11.0.0",
- ptolemy.actor.gui;version="11.0.0",ptolemy.actor.gui.s
- tyle;version="11.0.0",ptolemy.actor.injection;version="11.0.0",ptolem
- y.gui;version="11.0.0",
- com.microstar.xml;version="11.0.0",ptolemy.moml;versio
- n="11.0.0",ptolemy.moml.filter;version="11.0.0",ptolemy.moml.unit;ver
- sion="11.0.0"
+ ptolemy.actor.parameters;version="11.0.0",
+ ptolemy.actor.process;version="11.0.0",
+ ptolemy.actor.sched;version="11.0.0",
+ ptolemy.actor.util;version="11.0.0",
+ ptolemy.data;version="11.0.0",
+ ptolemy.data.expr;version="11.0.0",
+ ptolemy.data.type;version="11.0.0",
+ ptolemy.data.unit;version="11.0.0",
+ ptolemy.domains.pn.kernel;version="11.0.0",
+ ptolemy.domains.pn.kernel.event;version="11.0.0",
+ ptolemy.domains.sdf.activator;version="11.0.0",
+ ptolemy.domains.sdf.kernel;version="11.0.0",
+ ptolemy.domains.sdf.lib;version="11.0.0",
+ ptolemy.graph;version="11.0.0",
+ ptolemy.graph.analysis;version="11.0.0",
+ ptolemy.graph.analysis.analyzer;version="11.0.0",
+ ptolemy.graph.analysis.strategy;version="11.0.0",
+ ptolemy.graph.mapping;version="11.0.0",
+ ptolemy.gui;version="11.0.0",
+ ptolemy.kernel;version="11.0.0",
+ ptolemy.kernel.attributes;version="11.0.0",
+ ptolemy.kernel.undo;version="11.0.0",
+ ptolemy.kernel.util;version="11.0.0",
+ ptolemy.math;version="11.0.0",
+ ptolemy.moml;version="11.0.0",
+ ptolemy.moml.activator;version="11.0.0",
+ ptolemy.moml.filter;version="11.0.0",
+ ptolemy.moml.unit;version="11.0.0",
+ ptolemy.util;version="11.0.0"
