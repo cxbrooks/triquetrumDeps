@@ -7,7 +7,7 @@
 		<groupId>triquetrum</groupId>
 		<artifactId>org.eclipse.triquetrum.build</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../${pom-filename}</relativePath>
+		<relativePath>../../triquetrum</relativePath>
 	</parent>
 	<groupId>triquetrum</groupId>
 	<artifactId>org.eclipse.triquetrum.dependencies</artifactId>
